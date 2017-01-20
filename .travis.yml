@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '6.0'
+install: npm install
+deploy:
+  provider: s3
+  access_key_id: AKIAITRJ6ACY5DFWC7VA
+  bucket: hacku-devops-testing
+  region: us-west-2
+  secret_access_key:
+    secure: CS2tycJr278zF5BQG6v17NKBlKhBAtQGsbhKdBG9Ws+HSvstU5Oc8ekFOZqpQ0Z1nX5qmkeiOhiaAo8PDxc0pGC8dDg8CsTLhyU1OGC2bfHh1SOCsT7zLcOGiP+nVQZgjCgFr0OLEhXfwH149YNIZfA0Q83KlQ93rpG9Y3XsLZA8yTmcctvRbQsQDFjKQ4JcMVTYso9hyIUNOC0xIPZsmjq0OaW6zumVmRekWCDzCuLyC4wenNtE8dNJNvUytBXdqF3UUYTPotjocuv0/zB+IKsh/jcwte9eotQhjiUxBl+/p+jLF9j7ctdU8I+s+vJRhcEDR9Bu+blS8bvy8Q+/ceEHzlCGb0OCkzBclLrbW3JjwmYXDF8gHkwbHVpBWymIpociEfG9VPK31n45Fb1pQe1bVYZ46vix7hiVK6TWrM4t5/yLmCs64gpd0UuGVAx95NtZfT4MQWd7pRzJOqa1c2VX/GGzYIkEDxXgkje1e5YZfPLl1qzP++mAUek2tf0YmFp1HQ6pPOsMIa4UCITY/6QKXuAF35NCbDDnj1+bxLqvzG0FUBL80aGhGg2gEF07aZqQ2O8Py1EkeRcaqJWcV8cITfoPs60gUhbzGP2TjooM3S/MqEKz+BRvxFG6v85rTW5lOJjuIbfOMJXxfbAn0eoz5L+3/qhnq+eV+4R0C4M=
